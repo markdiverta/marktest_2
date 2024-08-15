@@ -40,11 +40,6 @@
                 >会員限定コンテンツ</NuxtLink
               >
             </li>
-            <li class="l-header__nav__list__item">
-              <NuxtLink to="/contact/" @click.native="Drawer = false"
-                >お問い合わせ</NuxtLink
-              >
-            </li>
           </ul>
           <div class="l-header__nav__options">
             <ClientOnly>
